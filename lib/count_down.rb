@@ -1,12 +1,8 @@
 count = 10 
 
-while true do
-  if count == 0
-    puts "Happy New Year!"
-    break
-  else
-    puts "#{count}"
-    count -= 1
-  end
+while count >= 1 do
+  puts count
+  count -= 1
 end
+puts "Happy New Year!"
   
