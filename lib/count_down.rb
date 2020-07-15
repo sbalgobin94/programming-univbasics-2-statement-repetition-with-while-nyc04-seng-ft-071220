@@ -5,7 +5,7 @@ while true do
     puts "Happy New Year!"
     break
   else
-    puts "count"
+    puts "#{count}"
     count -= 1
   end
 end
